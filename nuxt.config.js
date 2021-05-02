@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'nuxtjs-ssg',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
@@ -20,6 +20,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~/assets/css/app'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
