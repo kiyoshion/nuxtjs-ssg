@@ -1,0 +1,13 @@
+.l-header {
+  &__inner {
+    display: flex;
+  }
+
+  @include mq(md) {
+
+  }
+  
+  @include mq(lg) {
+
+  }
+}
